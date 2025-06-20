@@ -4,22 +4,119 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Hobby</title>
+
+	<style>
+
+		body {
+			background-color: rgb(198, 220, 220);
+		}
+
+		h1 {
+			text-align: center;
+		}
+
+		h2 {
+			text-align: center;
+
+		}
+
+		h3 {
+			text-align: center;
+		}
+
+		h4 {
+			text-align: center;
+		}
+
+		img {
+			max-width: 100%;
+			border-radius: 10px;
+		}
+
+		footer {
+			text-align: center;
+			margin-top: 20px;
+		}
+
+		.theme-button {
+			display: block;
+			margin: 0 auto;
+			margin-bottom: 10px;
+			padding: 5px 8px;
+			border-radius: 10px;
+		}
+
+		.container {
+			display: block;
+			margin: 0 auto;
+			max-width: 700px;
+			background-color: white;
+			border-radius: 20px;
+			padding: 20px 10px;
+		}
+
+
+
+		.images-gallery-grid {
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+			grid-gap:5px;
+		}
+
+		.education-information {
+			display: grid;
+			grid-template-columns: repeat(2, 1fr);
+			grid-gap: 5px;
+			margin: 20px 0 20px 0;
+		}
+
+		.connect-invitation {
+			text-align: center;
+		}
+
+		.connect-button {
+			display: block;
+			margin: 0 auto;
+			padding: 5px 10px;
+			border-radius: 10px;
+			font-size: 16px;
+		}
+
+	</style>
 </head>
 <body>
-    <button>Change theme</button>
-	<div>
+    <button class="theme-button">Change theme</button>
+	<div class="container">
    		<h1>👩‍🎨Artistic Connection</h1>
     	<h2><em>Where great imagination becomes reality!!!</em></h2>
-    	<img src="https://images.unsplash.com/photo-1725953659712-72d66558135d?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
-		<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/501/original/eye.png?1750418697" />
-		<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/502/original/cottage.png?1750418720" />
-		<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/503/original/cyclist-1.png?1750418941" />
-		<img src="https://media.istockphoto.com/id/1049623880/photo/group-of-people-painting-a-live-model-in-an-art-class.webp?a=1&b=1&s=612x612&w=0&k=20&c=H892y7iiwGiS4WdUyg5xV6YLiJRS84AZkO4dZlAlVFg=" />
-		<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.
-			<a href="https://www.theartroomsa.com/" target="blank">Visit the Art Room </a>
-		</p>
-		<button>Let's Connect</button>
+    	<img src="https://images.unsplash.com/photo-1725953659712-72d66558135d?q=80&w=1073&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="main-picture"/>
+
+		<div class="images-gallery-grid">
+			<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/502/original/cottage.png?1750418720" />
+			<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/501/original/eye.png?1750418697" />
+			<img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/168/503/original/cyclist-1.png?1750418941" />
+		</div>
+		<h3><em>Learn more about artistic expression👇🏽👇🏽👇🏽</em></h3>
+		<div class="education-information">
+			<img src="https://media.istockphoto.com/id/1049623880/photo/group-of-people-painting-a-live-model-in-an-art-class.webp?a=1&b=1&s=612x612&w=0&k=20&c=H892y7iiwGiS4WdUyg5xV6YLiJRS84AZkO4dZlAlVFg=" />
+			<div>
+				<h4>The Art Room SA</h4>
+				<p>Join the Art Room founded in 1992 by, artist and writer, Diane Welvering, and have been located in Pretoria East ever since. Diane, in collaboration with her daughter, Michelle, work extremely hard to help cultivate the inner artist in all students who visit The Art Room.
+				<br/>
+				<br/>
+				<a href="https://www.theartroomsa.com/" target="blank">Visit the Art Room </a>
+				</p>
+			</div>
+		</div>
+		<h3><em>For the love of art ❤️❤️❤️</em></h3>
+		<div class="connect-invitation">
+			<p>🎨For great art tips for beginners!!!
+				<br/>
+				🎨For some cool art suppliers!!!
+			</p>
+		</div>
+		<button class="connect-button">Let's Connect</button>
 	</div>
-		<footer>Code with ❤️❤️ by <a href="" target="blank">Sophie Ndobe</a></footer>
+	<footer>Coded with ❤️❤️ by <a href="" target="blank"> Sophie Ndobe</a></footer>
 </body>
 </html>
